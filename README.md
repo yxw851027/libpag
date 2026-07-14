@@ -82,8 +82,18 @@ from [here](https://github.com/Tencent/libpag/releases).
 
 ### iOS Integration
 
-You can download the framework from the release page or add `libpag` to your project using CocoaPods.
-To add the pod to your Podfile, include:
+You can download the framework from the release page, add this repository to your project using
+Swift Package Manager, or install `libpag` using CocoaPods.
+
+To use Swift Package Manager, choose **File > Add Package Dependencies** in Xcode, enter this
+repository's URL, select the `4.5.75-spm.1` version, and add the `libpag` product to your app target.
+You can then import it from Swift:
+
+```swift
+import libpag
+```
+
+To use CocoaPods, add the following dependency to your Podfile:
 
 ```
 pod 'libpag'
@@ -299,5 +309,4 @@ Please refer to the [PAG SDK Personal Information Processing Rules](https://priv
 If you have any ideas or suggestions to improve libpag, feel free to submit an
 [issue](https://github.com/Tencent/libpag/issues/new/choose) or a [pull request](https://github.com/Tencent/libpag/pulls). 
 Before doing so, please read our [Contributing Guide](./CONTRIBUTING.md).
-
 
