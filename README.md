@@ -86,7 +86,7 @@ You can download the framework from the release page, add this repository to you
 Swift Package Manager, or install `libpag` using CocoaPods.
 
 To use Swift Package Manager, choose **File > Add Package Dependencies** in Xcode, enter this
-repository's URL, select the `4.5.75-spm.1` version, and add the `libpag` product to your app target.
+repository's URL, select version `4.5.75` or later, and add the `libpag` product to your app target.
 You can then import it from Swift:
 
 ```swift
@@ -309,4 +309,3 @@ Please refer to the [PAG SDK Personal Information Processing Rules](https://priv
 If you have any ideas or suggestions to improve libpag, feel free to submit an
 [issue](https://github.com/Tencent/libpag/issues/new/choose) or a [pull request](https://github.com/Tencent/libpag/pulls). 
 Before doing so, please read our [Contributing Guide](./CONTRIBUTING.md).
-
